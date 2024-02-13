@@ -1,0 +1,46 @@
+/* src/components/DashboardOptions.css */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('./6114100.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif; /* Add a font family for better readability */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh; /* Ensure the entire viewport height is covered */
+  }
+  
+  .dashboard-menu {
+    background-color: #000;
+    color: #fff;
+    padding: 50px; /* Increased padding for a bigger menu */
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Added shadow */
+    text-align: center;
+    width: 400px; /* Adjust the width as needed */
+  }
+  
+  .menu-links {
+    margin-top: 20px;
+  }
+  
+  .menu-link {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s;
+    padding: 10px 20px; /* Add padding to make the buttons more prominent */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    background-color: #710303; /* Set background color */
+  }
+  
+  .menu-link:hover {
+    color: #007bff;
+  }
+  
